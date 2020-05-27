@@ -19,10 +19,6 @@
 #        print("Not Armstrong number")
 #armstrong(int(input("Enter number of your choice")))
 
-class a:
-    def __init__(self,a="hello"):
-        self.a=a
-    def display(self):
-        print(self.a)
-b=a()
-b.display()
+import numpy as np
+a=np.array([[1,2,3],[0,1,4]])
+print(a.ndim)
